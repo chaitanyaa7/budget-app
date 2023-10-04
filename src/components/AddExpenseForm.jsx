@@ -52,11 +52,11 @@ const AddExpenseForm = ({ budgets }) => {
             <label htmlFor="newExpenseAmount">Amount</label>
             <input
               type="number"
-              step="0.01"
+              step="10"
               inputMode="decimal"
               name="newExpenseAmount"
               id="newExpenseAmount"
-              placeholder="e.g., 3.50"
+              placeholder="e.g., ₹150"
               required
             />
           </div>
